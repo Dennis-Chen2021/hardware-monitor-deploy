@@ -1,10 +1,14 @@
-<p align="right">
+<div style="
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #007bff;  /* 上方蓝色边框 */
+    padding: 8px 0;                  /* 上下内边距 */
+">
+  <h1 style="margin: 0;">System Monitoring Deployment Script (Ubuntu)</h1>
   <a href="../README.md">中文</a>
-</p>
+</div>
 
----
-
-# System Monitoring Deployment Script (Ubuntu)
 
 This script automates the installation and configuration of:  
 - **NVIDIA DCGM** (Data Center GPU Manager)  
@@ -15,15 +19,14 @@ This script automates the installation and configuration of:
 
 ## Table of Contents
 
-- [System Monitoring Deployment Script (Ubuntu)](#system-monitoring-deployment-script-ubuntu)
-  - [Table of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
-  - [Usage](#usage)
-  - [Features](#features)
-  - [Script Workflow](#script-workflow)
-  - [Default Dashboards](#default-dashboards)
-  - [Configuration](#configuration)
-  - [Troubleshooting](#troubleshooting)
+- [Table of Contents](#table-of-contents)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [Features](#features)
+- [Script Workflow](#script-workflow)
+- [Default Dashboards](#default-dashboards)
+- [Configuration](#configuration)
+- [Troubleshooting](#troubleshooting)
 
 ## Prerequisites
 
