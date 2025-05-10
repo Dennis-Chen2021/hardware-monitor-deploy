@@ -1,10 +1,14 @@
-<p align="right">
-  <a href="README_en.md">English</a>
-</p>
+<div style="
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #007bff;    /* 顶部蓝色边框 */
+    padding: 8px 0;                    /* 顶部和底部留白 */
+">
+  <h1 style="margin: 0;">系统监控部署脚本 (Ubuntu)</h1>
+  <a href="./docs/README_en.md">English</a>
+</div>
 
----
-
-# 系统监控部署脚本 (Ubuntu)
 
 本脚本在 Ubuntu 22.04 上一键安装并配置以下组件：  
 - **NVIDIA DCGM**（数据中心 GPU 管理器）  
@@ -15,14 +19,14 @@
 
 ## 目录
 
-1. [前置要求](#前置要求)  
-2. [使用方法](#使用方法)  
-3. [脚本特性](#脚本特性)  
-4. [执行流程](#执行流程)  
-5. [默认仪表盘](#默认仪表盘)  
-6. [配置说明](#配置说明)  
-7. [故障排查](#故障排查)  
-8. [许可证](#许可证)
+- [目录](#目录)
+- [前置要求](#前置要求)
+- [使用方法](#使用方法)
+- [脚本特性](#脚本特性)
+- [执行流程](#执行流程)
+- [默认仪表盘](#默认仪表盘)
+- [配置说明](#配置说明)
+- [故障排查](#故障排查)
 
 ## 前置要求
 
