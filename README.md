@@ -50,8 +50,16 @@
    ```bash
    sudo ./hardware-monitor-deploy.sh
    ```
-   脚本会提示你输入 Grafana 凭据或已有的 API Token。
+   脚本会提示你输入 Grafana 凭据或已有的 API Token。（⚠️ **注意：** 关于API Token 获取，可以登陆http://<服务器IP>:3000,当然若是在本机部署的话，也可以使用`127.0.0.1:3000`来打开Grafana界面,在左侧导航栏中的 `管理->用户和访问权限中->服务账户` 中获取）示例图如下:
+  <img src="./imgs/Grafana1_apikey_ZH.png" alt="Grafana API Key" width="200" />
+  
+1. **实际效果展示**：
+  
+  **4.1 Node Exporter Full**
+![alt text](./imgs/NodeExporterFull_ZH.png)
 
+  **4.2 NVIDIA DCGM Exporter Dashboard**
+![alt text](./imgs/NVIDIADCGMExporterDashboard_ZH.png)
 ## 脚本特性
 
 - Go 安装 (v1.23.8)  
