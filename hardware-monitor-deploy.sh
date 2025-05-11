@@ -70,9 +70,9 @@ sudo systemctl enable --now nvidia-dcgm
 if ! ldconfig -p | grep -q libdcgm.so.4; then
   echo "🔄 检测到 libdcgm.so.4 缺失，正在升级至 DCGM 4.x..."
   sudo apt remove -y datacenter-gpu-manager
-  wget -q https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/datacenter-gpu-manager_4.0.5-1_amd64.deb
-  sudo dpkg -i datacenter-gpu-manager_4.0.5-1_amd64.deb
-  rm -f datacenter-gpu-manager_4.0.5-1_amd64.deb
+  wget -q https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/datacenter-gpu-manager-4-cuda-all_4.2.3_amd64.deb
+  sudo dpkg -i datacenter-gpu-manager-4-cuda-all_4.2.3_amd64.deb
+  rm -f datacenter-gpu-manager-4-cuda-all_4.2.3_amd64.deb
   sudo ldconfig
 else
   echo "✅ 已检测到 libdcgm.so.4"
